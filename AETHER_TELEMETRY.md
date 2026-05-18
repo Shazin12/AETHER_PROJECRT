@@ -6,7 +6,7 @@
 ✅ Atomic operations detected (`runTransaction`: 1, `increment`: 0)
 
 ### UI Performance
-- `setState`: 2 | `ValueNotifier`: 6 | `RepaintBoundary`: 0
+- `setState`: 1 | `ValueNotifier`: 6 | `RepaintBoundary`: 0
 ✅ Targeted repaints detected.
 
 ## 2. Developer Thought Log

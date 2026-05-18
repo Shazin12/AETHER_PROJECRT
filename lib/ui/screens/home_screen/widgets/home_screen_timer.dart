@@ -52,7 +52,6 @@ class _HomeScreenTimerState extends State<HomeScreenTimer> {
       _hours = 0;
       _minutes = 0;
       _seconds = 0;
-      setState(() {});
       timer.cancel();
     } else {
       _days = difference.inDays;
@@ -61,9 +60,8 @@ class _HomeScreenTimerState extends State<HomeScreenTimer> {
       _seconds = difference.inSeconds % 60;
 
       _lastSecond = difference.inSeconds % 60;
-
-      setState(() {});
     }
+    setState(() {});
   }
 
   @override
