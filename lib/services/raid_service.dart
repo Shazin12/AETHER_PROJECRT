@@ -48,7 +48,7 @@ class RaidService {
           throw StateError('Already joined');
         }
         transaction.update(raidRef, <String, Object>{
-          'joinedCount': joinedCount + 1,
+          'joinedCount': FieldValue.increment(1),
         });
 
         transaction.set(participantRef, <String, Object>{
