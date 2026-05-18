@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "426606618920",
+    "firebase_url": "https://bc-scanner-6c45a.firebaseio.com",
+    "project_id": "bc-scanner-6c45a",
+    "storage_bucket": "bc-scanner-6c45a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426606618920:android:67fa66b0a9170818fb881d",
+        "android_client_info": {
+          "package_name": "com.Hadi_creation.qr_scanner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE0HOrLjPnQq1sz7Db8n7dKcyeE4P-d_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426606618920:android:43e276fc0f9364b6fb881d",
+        "android_client_info": {
+          "package_name": "com.example.nervous_system"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE0HOrLjPnQq1sz7Db8n7dKcyeE4P-d_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
