@@ -1,17 +1,18 @@
-# nervous_system
+# Aether Diagnostic Report
 
-A new Flutter project.
+### 1. Code Quality
+✅ **PASS:** Zero static analysis warnings.
 
-## Getting Started
+### 2. Concurrency Outcome
+❌ **FAIL:** The 50-request blast failed to yield exactly 15 slots.
 
-This project is a starting point for a Flutter application.
+💡 **HEALING ACTION:** Read your test failure logs. Did your `joinRaid()` method correctly handle the race condition? Are you using locks or transactions?
 
-A few resources to get you started if this is your first Flutter project:
+But while i tested with real firestore its working but with FakeFirebaseFirestore i do no why its happening
+I also added a button in app to test with real firestore with 20 request same time
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### 3. Chat
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+For chat it listern to 'messages' collection 
+it will litern for upcoming messages
+also addded lazy loading to prevent loading all messages at once , it will load 10 messages
